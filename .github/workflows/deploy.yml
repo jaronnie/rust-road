@@ -13,6 +13,6 @@ jobs:
         with:
           ref: main
       - name: Deploy
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        uses: mhausenblas/mkdocs-deploy-gh-pages@1.26
         env:
           PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
