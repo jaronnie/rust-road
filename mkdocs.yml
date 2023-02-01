@@ -4,6 +4,7 @@ site_author: jaronnie
 site_description: >-
   the road to rust!
 # Repository
+repo_name: jaronnie/rust-road
 repo_url: https://github.com/jaronnie/rust-road
 
 # Copyright
