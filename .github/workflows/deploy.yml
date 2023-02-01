@@ -15,4 +15,4 @@ jobs:
       - name: Deploy
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
