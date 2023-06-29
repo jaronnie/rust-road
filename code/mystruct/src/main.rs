@@ -60,6 +60,6 @@ fn main() {
     println!("{:#?}", sq2);
 }
 
- fn area(rect: &Rectangle) -> u32 {
+fn area(rect: &Rectangle) -> u32 {
     return rect.length * rect.width
 }
