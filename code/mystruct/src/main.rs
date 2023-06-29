@@ -20,7 +20,7 @@ impl Rectangle {
     }
 }
 
-// impl blocface
+// impl block
 impl Rectangle {
     // 关联函数
     fn square2(size: u32) -> Rectangle {
