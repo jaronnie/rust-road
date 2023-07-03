@@ -7,14 +7,14 @@ fn main() {
     let f = read_file("test.txt".to_string());
     match f {
         Ok(content) => println!("Content: {}", String::from_utf8_lossy(&content)),
-        Err(e) => println!("read file meet error: {}", e)
+        Err(e) => println!("read file meet error: {}", e),
     }
-    
+
     // 使用 ? 错误处理方式
     let f = read_file_v2("test.txt".to_string());
     match f {
         Ok(content) => println!("Content: {}", String::from_utf8_lossy(&content)),
-        Err(e) => println!("read file meet error: {}", e)
+        Err(e) => println!("read file meet error: {}", e),
     }
 }
 
@@ -27,7 +27,7 @@ fn read_file(path: String) -> Result<Vec<u8>, io::Error> {
     let mut s = Vec::new();
     match f.read_to_end(&mut s) {
         Ok(_) => Ok(s),
-        Err(e) => Err(e)
+        Err(e) => Err(e),
     }
 }
 
