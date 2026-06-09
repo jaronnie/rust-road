@@ -3,6 +3,13 @@ use crate::{
     tools::Knife,
 };
 
+
+// same as
+// use super::{
+//     kitchen::{cook,Food},
+//     tools::Knife
+// };
+
 pub fn exec() {
     let food = Food {
         name: "tomato".to_string(),
