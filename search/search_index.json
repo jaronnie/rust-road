@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"welcome to the road of rust","text":""},{"location":"basic/hello/","title":"hello rust","text":"<pre><code>fn main() {\nprintln!(\"Hello World!\");\n}\n</code></pre>"}]}
