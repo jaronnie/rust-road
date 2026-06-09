@@ -1,15 +1,5 @@
-use use_crate_demo::{
-    kitchen::{cook, Food},
-    tools::Knife,
-};
+use use_crate_demo::exec;
 
 fn main() {
-    let food = Food {
-        name: "tomato".to_string(),
-    };
-
-    let knife = Knife;
-    knife.cut(&food.name);
-
-    cook(&food);
+    exec::exec() ;
 }
